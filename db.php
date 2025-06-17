@@ -1,8 +1,8 @@
 <?php
-$host = "hostname";
-$dbname = "databaseName";
-$username = "username"; // Change if needed
-$password = "yourpassword";     // Set your MySQL password
+$host = "127.0.0.1";
+$dbname = "LMS";
+$username = "root"; // Change if needed
+$password = "";     // Set your MySQL password
 
 // Create connection
 $conn = new mysqli($host, $username, $password, $dbname);
