@@ -2,7 +2,8 @@
 
 A powerful, user-friendly platform designed for efficient management of books, users, and administrative tasks. Whether you're a student, librarian, or administrator, this system simplifies everything from issuing books to managing feedback – all in one secure dashboard.
 
-![Smart Library Management System](https://drive.google.com/uc?export=view&id=1zfQZm6Gf-F_8VbWg8zCKCyiPcM1ptC4j)
+![Image](https://drive.google.com/uc?export=view&id=1IMs8qitV7WTPWVe7Sna3y0T4lTnhmVmp)
+
 
 
 ---
