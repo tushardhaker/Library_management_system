@@ -1,20 +1,12 @@
 <?php
-$host = "127.0.0.1";
-$dbname = "LMS";
-$username = "root"; // Change if needed
-$password = "";     // Set your MySQL password
+$host = getenv('DB_HOST');
+$user = getenv('DB_USER');
+$password = getenv('DB_PASSWORD');
+$database = getenv('DB_NAME');
+$port = getenv('DB_PORT') ?: 3306;
 
-// Create connection
-$conn = new mysqli($host, $username, $password, $dbname);
-
-// Check connection
+$conn = new mysqli($host, $user, $password, $database, $port);
 if ($conn->connect_error) {
-    die("Database connection failed: " . $conn->connect_error);
-}
-
-// Optional: uncomment to check connection
-// echo "Connected successfully";
-else {
-    // echo "Connection Successful ! ";
+    die("Connection failed: " . $conn->connect_error);
 }
 ?>
