@@ -1,0 +1,67 @@
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background-image: url('../v748-toon-131.jpg'); /* Make sure image exists */
+    color: #fff;
+    margin: 0;
+    padding: 10;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+      background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    margin: 0;
+    padding: 10;
+}
+
+.container {
+    width: 80%;
+    margin: 50px auto;
+    padding: 30px;
+    background-color: #161b22;
+    border-radius: 12px;
+    box-shadow: 0 0 15px rgba(0, 204, 255, 0.3);
+}
+
+h2, h3 {
+    text-align: center;
+    color: #00ccff;
+}
+
+.section {
+    margin-top: 30px;
+}
+
+.book {
+    background: #21262d;
+    margin: 12px 0;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 0 5px rgba(0, 204, 255, 0.1);
+}
+
+.title {
+    font-weight: bold;
+    font-size: 16px;
+    color: #58a6ff;
+}
+
+.back-btn {
+    margin-top: 30px;
+    padding: 12px 25px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-size: 14px;
+    cursor: pointer;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.back-btn:hover {
+    background-color: #000000;
+}
