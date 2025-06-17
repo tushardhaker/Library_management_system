@@ -13,7 +13,7 @@ A powerful, user-friendly platform designed for efficient management of books, u
 | Layer       | Technology       |
 |-------------|------------------|
 | Frontend    | HTML, CSS        |
-| Backend     | Node.js          |
+| Backend     | PHP              |
 | Database    | MySQL            |
 
 ---
