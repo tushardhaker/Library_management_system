@@ -1,20 +1,14 @@
 <?php
-$host = "127.0.0.1";
-$dbname = "LMS";
-$username = "root"; // Change if needed
-$password = "";     // Set your MySQL password
+$mysqlhost = 'shuttle.proxy.rlwy.net';
+$mysqlport = 54458;
+$mysqluser = 'root';
+$mysqlpassword = 'sGadhNwhhMtILjkTBfFqNuPwYveJZrkE';
+$mysqldatabase = 'railway';
 
-// Create connection
-$conn = new mysqli($host, $username, $password, $dbname);
+$conn = new mysqli($mysqlhost, $mysqluser, $mysqlpassword, $mysqldatabase, $mysqlport);
 
 // Check connection
 if ($conn->connect_error) {
-    die("Database connection failed: " . $conn->connect_error);
-}
-
-// Optional: uncomment to check connection
-// echo "Connected successfully";
-else {
-    // echo "Connection Successful ! ";
+    die("Connection failed: " . $conn->connect_error);
 }
 ?>
